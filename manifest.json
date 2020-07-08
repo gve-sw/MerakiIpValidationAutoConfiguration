@@ -1,0 +1,19 @@
+{
+	"manifest_version": 2,
+	"name": "AutofillExtension",
+	"version": "1.0.0",
+
+	"browser_action": {
+		"default_title": "AutofillExtension",
+		"default_icon": "icon.png",
+		"default_popup": "index.html"
+	},
+
+	"permissions": [
+		"activeTab",
+		"https://api.meraki.com/api/v0/organizations/549236/deviceStatuses"
+	],
+	"web_accessible_resources": [
+		"iplist.json"
+	]
+}
